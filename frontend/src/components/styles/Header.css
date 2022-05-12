@@ -1,0 +1,20 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  height: 13vh;
+}
+
+.logo {
+  width: 20vw;
+  height: 20vw;
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 10px;
+}
+.link a {
+  color: var(--third-color);
+}
