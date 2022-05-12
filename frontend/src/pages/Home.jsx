@@ -19,7 +19,9 @@ export default function Home() {
           publishing packages and web page editors now use Lorem Ipsum as their
           default model text
         </p>
-        <button className="recherchemodel">rechrcher</button>
+        <button type="submit" className="recherchemodel">
+          rechrcher
+        </button>
       </div>
     </div>
   );
