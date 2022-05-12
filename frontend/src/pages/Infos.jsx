@@ -5,10 +5,10 @@ import NavBar from "@components/NavBar";
 export default function Infos() {
   return (
     <>
-    <div>
-      <NavBar home="Acceuil" infos="" />
-      <h1>Infos</h1>
-    </div>
+      <div>
+        <NavBar home="Acceuil" infos="" />
+        <h1>Infos</h1>
+      </div>
       <div className="infosDescriptionProject">
         <h2>Informations sur le projet</h2>
         <article>

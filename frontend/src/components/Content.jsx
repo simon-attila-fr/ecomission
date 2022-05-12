@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
-import Result from "../pages/Result";
+import PageResult from "../pages/PageResult";
 import Infos from "../pages/Infos";
 
 function Content() {
@@ -8,8 +8,8 @@ function Content() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Result" element={<Result />} />
         <Route path="/Infos" element={<Infos />} />
+        <Route path="/resultat" element={<PageResult />} />
       </Routes>
     </div>
   );
