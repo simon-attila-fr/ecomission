@@ -1,14 +1,14 @@
-import Result from "./pages/Result";
-import Infos from "./pages/Infos";
-import Home from "./pages/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Content from "./components/Content";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Result />
-      <Infos />
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
