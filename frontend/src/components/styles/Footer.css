@@ -1,0 +1,10 @@
+.footerSocialMedia,
+.footerText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: var(--main-color);
+}

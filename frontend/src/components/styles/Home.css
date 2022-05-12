@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slogan{
+text-align: center;
+font-size: 13px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+p{
+    font-size: 16px;
+}
+.recherchemodel{
+    margin: 10px;
+    display: flex;
+    width: 20vw;
+    border-radius: 30px #BC4749;
+    background-color: var(--third-color);
+}
