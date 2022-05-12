@@ -6,7 +6,7 @@ import twitter from "../assets/twitter.png";
 
 export default function Footer() {
   return (
-    <>
+    <div className="footer">
       <div className="footerSocialMedia">
         <img src={fb} alt="Logo de Facebook" />
         <img src={insta} alt="Logo d'Instagram" />
@@ -16,6 +16,6 @@ export default function Footer() {
         <p>© Capitains de Planète</p>
         <p>contact@capitainsdeplanete.com</p>
       </div>
-    </>
+    </div>
   );
 }
