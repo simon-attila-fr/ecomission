@@ -1,18 +1,19 @@
 .home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .slogan{
 text-align: center;
-font-size: 13px;
+font-size: 12px;
 padding-top: 30px;
 padding-bottom: 30px;
+font-size: 1.2rem;
 }
 
 p{
-    font-size: 16px;
+font-size: 1rem;
 }
 .recherchemodel{
     margin: 10px;
@@ -20,4 +21,16 @@ p{
     width: 20vw;
     border-radius: 30px #BC4749;
     background-color: var(--third-color);
+}
+.history p {
+    width: 70%;
+
+}
+.history{
+    width: 80%;
+    padding: 10px;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
 }
