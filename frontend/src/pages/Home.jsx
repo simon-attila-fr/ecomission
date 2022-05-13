@@ -30,11 +30,11 @@ export default function Home() {
           publishing packages and web page editors now use Lorem Ipsum as their
           default model text
         </p>
-          <select name="" id="">
-        {marques.map((marque) => (
-          <option>{marque}</option>
-        ))}
-      </select>
+        <select name="" id="">
+          {marques.map((marque) => (
+            <option>{marque}</option>
+          ))}
+        </select>
         <button type="submit" className="recherchemodel">
           rechrcher
         </button>
