@@ -4,7 +4,6 @@ import "../components/styles/Home.css";
 import { Link } from "react-router-dom";
 import userChoiceContext from "../contexts/userChoiceContext";
 import NavBar from "../components/NavBar";
-import Resultat from "../components/Resultat";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -78,7 +77,6 @@ export default function Home() {
               rechercher
             </button>
           </Link>
-          <Resultat />
         </div>
       </div>
     </userChoiceContext.Provider>
