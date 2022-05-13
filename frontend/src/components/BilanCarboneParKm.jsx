@@ -46,7 +46,7 @@ export default function BilanCarboneParKm() {
                 alt="mode de transport"
               />
               <p className="text" key={donnee.id}>
-                {donnee.emissions.gco2e} kg de C02
+                {donnee.emissions.gco2e.toFixed(2)} g de C02
               </p>
             </div>
           );
