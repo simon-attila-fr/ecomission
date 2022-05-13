@@ -9,7 +9,7 @@ function Content() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Infos" element={<Infos />} />
-        <Route path="/resultat" element={<PageResult />} />
+        <Route path="/Resultat" element={<PageResult />} />
       </Routes>
     </div>
   );

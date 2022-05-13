@@ -1,4 +1,3 @@
-import React from "react";
 import "../components/styles/Result.css";
 import "../components/styles/BilanCarbonne.css";
 import Resultat from "../components/Resultat";

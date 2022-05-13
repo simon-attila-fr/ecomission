@@ -9,15 +9,45 @@
   font-size: 13px;
   padding-top: 30px;
   padding-bottom: 30px;
+
 }
 
 p {
   font-size: 16px;
 }
+
+.paragraph {
+  margin-bottom: 2rem;
+}
+
 .recherchemodel {
-  margin: 10px;
-  display: flex;
-  width: 20vw;
-  border-radius: 30px #bc4749;
+  margin-bottom: 2rem;
+  height: 5vh;
+  width: 25vw;
+  border-radius: 30px;
   background-color: var(--third-color);
 }
+
+.select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+select {
+  background-color: var(--main-color);
+  border-radius: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+select:last-of-type {
+  width: 82%;
+}
+
+select option {
+  color: var(--third-color);
+}
+
