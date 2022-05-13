@@ -1,14 +1,19 @@
 import React from "react";
 import "../components/styles/Result.css";
+import "../components/styles/BilanCarbonne.css";
 import Resultat from "../components/Resultat";
 import NavBar from "../components/NavBar";
+import BilanCarboneParKm from "../components/BilanCarboneParKm";
 
-export default function PageResult() {
+function PageResult() {
   return (
     <div>
       <NavBar home="Acceuil" infos="infos" />
       <h1>Results</h1>
-      return <Resultat />;
+      <Resultat />
+      <BilanCarboneParKm />
     </div>
   );
 }
+
+export default PageResult;

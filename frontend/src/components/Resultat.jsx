@@ -1,6 +1,6 @@
 import React from "react";
 
-function Resultat(/* "{ marque, modele, annee, carburant }" */) {
+function Resultat() {
   return (
     <div className="result">
       <div>
