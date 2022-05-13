@@ -1,0 +1,28 @@
+.div-bilan-carbone {
+  margin: 1rem 0;
+  background-color: antiquewhite;
+}
+
+.div-bilan-carbone div {
+  min-width: 45%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.div-bilan-carbone img {
+  height: 60px;
+  width: 60px;
+}
+
+.div-km {
+  margin-top: 1.5rem;
+}
+
+.parag-kilometre {
+  display: inline-block;
+  color: green;
+  margin-left: 0.8rem;
+}

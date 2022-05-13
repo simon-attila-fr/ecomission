@@ -3,7 +3,6 @@ import userChoiceContext from "../contexts/userChoiceContext";
 
 function Resultat() {
   const { toto } = useContext(userChoiceContext);
-
   return (
     <div className="result">
       <div>

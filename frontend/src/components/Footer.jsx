@@ -13,8 +13,8 @@ export default function Footer() {
         <img src={twitter} alt="Logo of Twitter" />
       </div>
       <div className="footerText">
+        <a href="mailto:m.bluth@example.com">contact@capitainsdeplanete.com</a>
         <p>© Capitains de Planète</p>
-        <p>contact@capitainsdeplanete.com</p>
       </div>
     </div>
   );
