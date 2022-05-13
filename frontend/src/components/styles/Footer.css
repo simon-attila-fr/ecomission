@@ -10,6 +10,7 @@
 .footer {
   padding: 0.4rem 0.7rem;
   background-color: var(--main-color);
+  margin-top: 7rem;
 }
 
 .footer img {
@@ -29,4 +30,12 @@
 .footerText p {
   font-size: 0.9rem;
   margin-top: 1.2rem;
+}
+
+@media (min-width: 760px) {
+  .footerSocialMedia {
+    justify-content: center;  
+    align-items : center;
+    gap : 2rem;
+  }
 }
