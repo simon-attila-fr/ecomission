@@ -12,6 +12,10 @@
   padding: 1rem;
 }
 
+.div-bilan-carbone div:nth-child(odd) {
+  background-color: rgb(249, 241, 230);
+}
+
 .div-bilan-carbone img {
   height: 60px;
   width: 60px;
