@@ -6,7 +6,7 @@ export default function Infos() {
   return (
     <>
       <div className="infos">
-        <NavBar home="Acceuil" infos="" />
+        <NavBar home="Acceuil" infos="Infos" />
         <h1 className="infos-title1">Infos</h1>
       </div>
       <div className="infosDescriptionProject">

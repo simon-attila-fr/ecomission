@@ -1,6 +1,6 @@
 .footerSocialMedia {
   display: flex;
-  justify-content: space-between;
+ justify-content: space-between;
   margin-top: 0.6rem;
   margin-bottom: 1.2rem;
   border-bottom: 1.5px solid tomato;
@@ -10,6 +10,7 @@
 .footer {
   padding: 0.4rem 0.7rem;
   background-color: var(--main-color);
+  margin-top: 7rem;
 }
 
 .footer img {

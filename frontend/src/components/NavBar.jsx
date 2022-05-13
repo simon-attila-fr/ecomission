@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
-import "@components/styles/Header.css";
+import "./styles/Header.css";
 
 function NavBar(props) {
   const { home, infos } = props;
@@ -9,8 +9,12 @@ function NavBar(props) {
     <nav className="navBar">
       <img className="logo" src="src/assets/logo4.png" alt="logo" />
       <div className="link">
-        <Link to="/">{home}</Link>
-        <Link to="/Infos">{infos}</Link>
+        <NavLink className="navlink" to="/">
+          {home}
+        </NavLink>
+        <NavLink className="navlink" to="/Infos">
+          {infos}
+        </NavLink>
       </div>
     </nav>
   );

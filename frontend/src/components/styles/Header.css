@@ -1,3 +1,26 @@
+@media screen and (max-width: 767px) {
+  
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 13vh;
+  }
+  
+  img.logo {
+  width: 20vw
+  }
+  
+  .navBar a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  .link a {
+    color: var(--third-color);
+  }
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -6,15 +29,13 @@
   height: 13vh;
 }
 
-.logo {
-  width: 20vw;
-  height: 20vw;
-}
 
-.navBar a {
-  text-decoration: none;
-  padding: 10px;
-}
 .link a {
   color: var(--third-color);
+  margin-right: 2rem;
+}
+
+nav a.navlink.active {
+  font-size: 1.5rem;
+  color: var(--second-color)
 }
