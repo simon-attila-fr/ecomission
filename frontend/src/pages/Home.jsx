@@ -24,8 +24,7 @@ export default function Home() {
 
   const arr = data.map((e) => e.fields.marque);
   const marques = [...new Set(arr)];
-  const toto = useMemo(() => userChoice, []);
-
+  const toto = useMemo(() => userChoice, [userChoice]);
   return (
     <userChoiceContext.Provider value={toto}>
       <div>
