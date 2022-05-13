@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+// eslint-disable-next-line import/no-unresolved
 import "@components/styles/Header.css";
 
 function NavBar(props) {
