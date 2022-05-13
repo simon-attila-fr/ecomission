@@ -20,7 +20,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .paragraph p {
@@ -30,7 +30,6 @@ p {
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  
 }
 
 .recherchemodel {
@@ -77,7 +76,6 @@ select option {
 }
 
 @media screen and (max-width: 767px) {
-  
   .home {
     display: flex;
     flex-direction: column;
@@ -90,19 +88,19 @@ select option {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  
+
   p {
     font-size: 16px;
   }
-  
+
   .paragraph {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
   }
-  
+
   .paragraph p {
     font-size: 1.2rem;
     background-color: var(--second-color);
@@ -110,9 +108,8 @@ select option {
     text-align: center;
     padding: 20px;
     border-radius: 30px;
-    
   }
-  
+
   .recherchemodel {
     margin-bottom: 2rem;
     height: 5vh;
@@ -127,7 +124,7 @@ select option {
     justify-content: center;
     margin-bottom: 1rem;
   }
-  
+
   select {
     background-color: var(--main-color);
     border-radius: 30px;
@@ -135,11 +132,11 @@ select option {
     text-align: center;
     margin-bottom: 0.5rem;
   }
-  
+
   select:last-of-type {
     width: 82%;
   }
-  
+
   select option {
     border: 1px solid var(--third-color);
     text-decoration: none;

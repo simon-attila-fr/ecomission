@@ -1,5 +1,4 @@
 @media screen and (max-width: 767px) {
-  
   .navBar {
     display: flex;
     justify-content: space-between;
@@ -7,11 +6,12 @@
     background-color: var(--main-color);
     height: 13vh;
   }
-  
+
   img.logo {
-  width: 20vw
+    margin: 10px;
+    width: 20vw;
   }
-  
+
   .navBar a {
     text-decoration: none;
     padding: 10px;
@@ -26,9 +26,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--main-color);
-  height: 13vh;
+  height: 15vh;
 }
-
 
 .link a {
   color: var(--third-color);
@@ -36,6 +35,15 @@
 }
 
 nav a.navlink.active {
-  font-size: 1.5rem;
-  color: var(--second-color)
+  font-size: 1.4rem;
+  color: var(--second-color);
+}
+
+img.logo {
+  margin: 10px;
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 10px;
 }
