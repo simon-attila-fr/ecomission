@@ -1,16 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import userChoiceContext from "../contexts/userChoiceContext";
 
-function Resultat(/* "{ marque, modele, annee, carburant }" */) {
+function Resultat() {
+  const { toto } = useContext(userChoiceContext);
   return (
     <div className="result">
       <div>
         <img src="./src/assets/voiture.png" alt="voiture" />
-      </div>
-      <div>
-        <h2>Marque : la marque</h2>
-        <h2>Modèle : modele</h2>
-        <h2>Année : annee</h2>
-        <h2>Carburant : carburant</h2>
+        <h1>{toto}</h1>
       </div>
     </div>
   );
