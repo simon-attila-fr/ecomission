@@ -1,4 +1,4 @@
 import { createContext } from "react";
 
-const userChoiceContext = createContext();
+const userChoiceContext = createContext("");
 export default userChoiceContext;

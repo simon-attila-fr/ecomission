@@ -8,9 +8,11 @@ function PageResult() {
   return (
     <div>
       <NavBar home="Acceuil" infos="infos" />
-      <h1>Results</h1>
-      <Resultat />
-      <BilanCarboneParKm />
+      <div className="resultsBody">
+        <h1>Results</h1>
+        <Resultat />
+        <BilanCarboneParKm />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
+/* eslint-disable prettier/prettier */
 import axios from "axios";
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState } from "react";
 import "../components/styles/Home.css";
 import { Link } from "react-router-dom";
 import userChoiceContext from "../contexts/userChoiceContext";
@@ -22,11 +24,14 @@ export default function Home() {
     axios.get(url2).then((resp) => setObjectMarques(resp.data.records));
   }, [marqueValue]);
 
+  function getCarType(e) {
+    setUserChoice(e.target.value);
+  }
+
   const arr = data.map((e) => e.fields.marque);
   const marques = [...new Set(arr)];
-  const toto = useMemo(() => userChoice, [userChoice]);
   return (
-    <userChoiceContext.Provider value={toto}>
+    <userChoiceContext.Provider value={{userChoice}}>
       <div>
         <NavBar home="Acceuil" infos="Infos" />
         <div className="home">
@@ -52,7 +57,7 @@ export default function Home() {
               ))}
             </select>
             <select
-              onChange={(e) => setUserChoice(e.target.value)}
+              onChange={getCarType}
               name=""
               id=""
             >
