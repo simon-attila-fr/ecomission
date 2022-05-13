@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
-import "./styles/Header.css";
+// eslint-disable-next-line import/no-unresolved
+import "@components/styles/Header.css";
+
 
 function NavBar(props) {
   const { home, infos } = props;
