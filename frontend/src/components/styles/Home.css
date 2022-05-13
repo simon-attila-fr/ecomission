@@ -9,15 +9,17 @@
   font-size: 13px;
   padding-top: 30px;
   padding-bottom: 30px;
+
+}
+
+p {
+  font-size: 16px;
 }
 
 .paragraph {
   margin-bottom: 2rem;
 }
 
-p {
-  font-size: 16px;
-}
 .recherchemodel {
   margin-bottom: 2rem;
   height: 5vh;
@@ -48,3 +50,4 @@ select:last-of-type {
 select option {
   color: var(--third-color);
 }
+
