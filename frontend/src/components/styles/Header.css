@@ -35,7 +35,7 @@
 }
 
 nav a.navlink.active {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--second-color);
 }
 
@@ -46,4 +46,6 @@ img.logo {
 .navBar a {
   text-decoration: none;
   padding: 10px;
+  font-size: 1.5rem;
+ 
 }
