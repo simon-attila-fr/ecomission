@@ -34,8 +34,8 @@
 
 @media (min-width: 760px) {
   .footerSocialMedia {
-    justify-content: center;  
-    align-items : center;
-    gap : 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
   }
 }

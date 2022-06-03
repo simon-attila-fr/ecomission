@@ -1,5 +1,6 @@
 import { React, useContext } from "react";
 import userChoiceContext from "../contexts/userChoiceContext";
+import "../assets/voiture.png";
 
 function Resultat() {
   const { userChoice } = useContext(userChoiceContext);

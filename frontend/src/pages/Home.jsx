@@ -31,7 +31,7 @@ export default function Home() {
   const arr = data.map((e) => e.fields.marque);
   const marques = [...new Set(arr)];
   return (
-    <userChoiceContext.Provider value={{userChoice}}>
+    <userChoiceContext.Provider value={{ userChoice }}>
       <div>
         <NavBar home="Acceuil" infos="Infos" />
         <div className="home">
@@ -56,11 +56,7 @@ export default function Home() {
                 <option>{marque}</option>
               ))}
             </select>
-            <select
-              onChange={getCarType}
-              name=""
-              id=""
-            >
+            <select onChange={getCarType} name="" id="">
               <option value="">MODELES</option>
               {ObjectMarques.map((modele) => (
                 <option>

@@ -1,5 +1,24 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import "../assets/1.png";
+import "../assets/2.png";
+import "../assets/3.png";
+import "../assets/4.png";
+import "../assets/5.png";
+import "../assets/6.png";
+import "../assets/7.png";
+import "../assets/8.png";
+import "../assets/9.png";
+import "../assets/10.png";
+import "../assets/11.png";
+import "../assets/12.png";
+import "../assets/13.png";
+import "../assets/14.png";
+import "../assets/15.png";
+import "../assets/16.png";
+import "../assets/21.png";
+import "../assets/autobus.png";
+import "../assets/velo-electrique.png";
 
 export default function BilanCarboneParKm() {
   const [nbKilometres, setNbKilometres] = useState(10);
